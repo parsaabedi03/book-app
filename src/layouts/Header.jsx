@@ -1,7 +1,12 @@
+import styles from "./Header.module.css";
+
 function Header() {
   return (
-    <div>Header</div>
-  )
+    <header className={styles.header}>
+      <h1>Book App</h1>
+      <p>React Project</p>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
