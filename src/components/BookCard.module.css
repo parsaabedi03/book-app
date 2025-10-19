@@ -1,0 +1,65 @@
+.bookCard {
+  position: relative;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.bookCard img {
+  height: 100px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.bookCard .info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-size: 1rem;
+}
+
+.title {
+  font-weight: 900;
+}
+
+.author {
+  color: #fff;
+}
+
+.details {
+  font-size: 0.8rem;
+}
+
+.details span:first-child {
+  margin-right: 10px;
+}
+
+.bookCard button {
+  position: absolute;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  transition: all 0.1s ease-in;
+}
+
+.bookCard button svg {
+  fill: #ffffff;
+  color: #ffffff;
+  width: 25px;
+  height: 25px;
+}
+
+.liked {
+  fill: red !important;
+  color: red !important;
+}
+
+.bookCard button:hover {
+  transform: scale(1.2);
+}
